@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/scan.py": {
+      "runtime": "python3.11"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/scan",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
