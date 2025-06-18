@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .utils import run_rsi_scan
+from utils import get_rsi  # ✅ Absolute import
 
 app = FastAPI()
 
